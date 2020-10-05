@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.vertical-timeline::before {
+  background: #eee;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.vertical-timeline-element-icon {
+  height: 8px;
+  width: 8px;
+  left: 12px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  box-sizing: initial;
+  -webkit-box-sizing: initial;
+  background-color: #eee;
+  border: 4px solid #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vertical-timeline-element-content p {
+  font-size: 13px;
+  text-align: justify;
+  margin-top: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.vertical-timeline-element-content {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin-left: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.vertical-timeline-element-title {
+  margin: 0;
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vertical-timeline-element {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.vertical-timeline {
+  padding: 1em 0;
+}
+
+.vertical-timeline-element-subtitle {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.MuiIcon-root {
+  width: 2em !important;
 }
