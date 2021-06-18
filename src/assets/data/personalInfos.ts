@@ -1,7 +1,7 @@
 export const personalInfos = {
   name: 'Flavien VACCARETTI',
   infos: [
-    { name: 'years', icon: 'fa fa-birthday-cake', value: '26 ans' },
+    { name: 'birthday', icon: 'fa fa-birthday-cake', value: '27/01/1994' },
     { name: 'phone', icon: 'fa fa-phone', value: '06 88 02 22 97' },
     { name: 'mail', icon: 'far fa-envelope-open', value: 'flavien.vaccaretti@gmail.com' },
     { name: 'web site', icon: 'fa fa-mouse-pointer', value: 'www.kydenz.fr' },
@@ -47,6 +47,13 @@ export const personalInfos = {
     { name: '3ds Max', src: require('assets/img/3dsmax.png') },
   ],
   jobs: [
+    {
+      place: 'Opensee',
+      job: 'Développeur Frontend',
+      date: 'Depuis Ocobtre 2020',
+      description: '<p>Traitement de big data dans une interface sous forme de pivot et de graphique</p>',
+      technologies: ['Angular 12', 'TypeScript', 'Lerna'],
+    },
     {
       place: 'Inéa Conseil',
       job: 'Freelance Fullstack',
